@@ -1,0 +1,49 @@
+name: Publish experimental firmware
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - firmware/**
+      - docs/RELEASE_0.1.0.md
+      - .github/workflows/release.yml
+permissions:
+  contents: write
+concurrency:
+  group: experimental-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Verify prebuilt images and matching source
+        run: |
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          report=json.loads(Path('docs/BUILD_REPORT.json').read_text())
+          for name,expected in report['sha256'].items():
+              path=Path('firmware/0.1.0')/Path(name).name if name.startswith('build/') else Path(name)
+              actual=hashlib.sha256(path.read_bytes()).hexdigest()
+              if actual!=expected:raise SystemExit(f'Hash mismatch: {path}')
+              print(f'Verified {path}')
+          PY
+      - name: Package binaries, browser, source and notices
+        run: |
+          mkdir -p build
+          cp firmware/0.1.0/* build/
+          python3 tools/package_release.py
+          cd build/release-0.1.0
+          sha256sum -c SHA256SUMS
+      - name: Publish prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v0.1.0 >/dev/null 2>&1; then
+            gh release upload v0.1.0 build/release-0.1.0/* --clobber
+          else
+            gh release create v0.1.0 build/release-0.1.0/* --target "$GITHUB_SHA" --prerelease --title 'ACID FM1 0.1.0 — experimental' --notes-file docs/RELEASE_0.1.0.md
+          fi
