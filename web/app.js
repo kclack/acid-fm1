@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT */
+/* SPDX-License-Identifier: AGPL-3.0-only */
 import { createEngine, validateProject } from './engine-api.js';
 const $ = id => document.getElementById(id);
 const presets = ['Foundation','Warehouse','Liquid Chrome','Broken Circuit','Dub Corrosion','Polymetric','Slow Burn','Init Live'];

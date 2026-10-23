@@ -1,6 +1,6 @@
 # Sources, credits, and licenses
 
-ACID FM1's original application, DSP, studio page, and tests are MIT licensed.
+ACID FM1's original application, DSP, studio page, and tests are AGPL-3.0-only licensed.
 No Arturia executable, source, preset, sample, image, logo, or other asset is
 included. Acid V was a feature reference, not a DSP implementation source.
 
@@ -28,7 +28,7 @@ included. Acid V was a feature reference, not a DSP implementation source.
 The copied/generated browser hardware emulator retains its MPL-2.0 notice.
 `tools/prepare_hardware_web.py` records its adaptation: removing external font
 requests, adding navigation and a local optional browser-speech adapter.
-The original platform submodules are unmodified. This project's MIT license
+The original platform submodules are unmodified. This project's AGPL-3.0-only license
 does not relicense any MPL, OFL, or Apache files. Their source remains available
 through the pinned submodules and full-source release archive.
 

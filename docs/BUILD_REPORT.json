@@ -23,12 +23,12 @@
     "physical_hardware": "not tested"
   },
   "sha256": {
-    "app.c": "43672413139dcc8fb4bbf562e9ea10d5e9fdc321cb9ef12ec0c36e707c0fd1bc",
-    "app.h": "0a253c7592daf58b803d5bbc7c582f36ed8e36152423bc1587ef68cbfa601692",
-    "dsp/acid.c": "74530199d96d14232c7b76422b48358152bb5d18e1849e04993926f122d385a3",
-    "dsp/acid.h": "e1cc1b68cf615de874063c6f57c596700c3ccb905a4a8a7bc7161e3294c723d7",
-    "dsp/web_bridge.c": "b45d5393b8e6ef46627b65c1887971ad417e694215243cd22d9f5029ebfeefcc",
-    "fm1.toml": "fab44696f44de8465e9945cceab8aa74d054cc13c349c825db470bdc558e3eaf",
+    "app.c": "95cf09a5f94bedf26f3ee68850e8b379e1a2949b50bb4d9edd9a49d07b623871",
+    "app.h": "27377c207716bfbb9008cc9eb3aff54c22bb2a755e7dee3817d494bf1bd4455d",
+    "dsp/acid.c": "f1154d427b9e3c66d803745aab2c6c6007eb4c18b4530da935fc42df58fefde5",
+    "dsp/acid.h": "120b61c070fee231a101cbd023f0ad56264ffe539472892b6bd1a05f65e04303",
+    "dsp/web_bridge.c": "5998494d694d96d0a1fb6a1afafca2dffd341b9f273299bb5a11ff106618866a",
+    "fm1.toml": "ce07aeba5eb007b77a223e261c04ff8893da2f82cf2d344682b4a21a3ba4b8ea",
     "web/engine.wasm": "98bb81a30da1687d7a254e41949d10380d430b7570657e05764135334d5e8d0b",
     "web/hardware/app.wasm": "0c6b12335419b782b58c823aa20e5a2d75022ea065f39bf75c7a382ef823e49d",
     "build/acid-fm1.bin": "3ae4c13416575bfa6270e499be37bcc0d8850a1cb498c3b5e681a011949e5bfb",

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT
+/* SPDX-License-Identifier: AGPL-3.0-only
  * ACID FM1: original application on the unmodified MPL-2.0 fm1-base platform. */
 static Acid synth PLAT_POOL;
 static AcidProject disk_project;

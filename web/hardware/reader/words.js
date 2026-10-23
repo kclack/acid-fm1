@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT */
+/* SPDX-License-Identifier: AGPL-3.0-only */
 export const wordsOf = data => Array.isArray(data.words) ? data.words : [];
 export function spoken(text, words) {
   for (const [source, replacement] of [...words].sort((a,b)=>b[0].length-a[0].length)) {

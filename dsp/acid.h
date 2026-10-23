@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT
+/* SPDX-License-Identifier: AGPL-3.0-only
  * Original ACID FM1 synthesis and sequencing engine. No Arturia code or assets. */
 #ifndef ACID_FM1_H
 #define ACID_FM1_H

@@ -12,5 +12,5 @@ usb_audio_out = true
 mirror = true
 tagline = "An open acid instrument for the M-VAVE FM-1"
 repo = "https://github.com/kclack/acid-fm1"
-licence = "MIT / MPL-2.0 platform"
+licence = "AGPL-3.0 / MPL-2.0 platform"
 credits = "Original synth on fm1-base and felucca-bsp. Independent of Arturia and M-VAVE."

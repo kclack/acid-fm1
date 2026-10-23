@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT */
+/* SPDX-License-Identifier: AGPL-3.0-only */
 export async function createEngine(bytes, sampleRate = 44100) {
   const { instance } = await WebAssembly.instantiate(bytes, {
     env: { emscripten_notify_memory_growth() {} },

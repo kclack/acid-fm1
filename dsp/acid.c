@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT
+/* SPDX-License-Identifier: AGPL-3.0-only
  * Original portable float DSP. Inspired by classic acid instruments and public
  * feature descriptions, not a port or circuit-identical model of Acid V. */
 #include "acid.h"

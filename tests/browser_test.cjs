@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: MIT
+/* SPDX-License-Identifier: AGPL-3.0-only
  * Run with PLAYWRIGHT_MODULE pointing to an installed Playwright module.
  * BROWSER_BIN defaults to /usr/bin/chromium; BASE_URL defaults to localhost:8000.
  */

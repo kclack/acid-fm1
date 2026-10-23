@@ -1,5 +1,5 @@
 #!/bin/sh
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: AGPL-3.0-only
 set -eu
 cd "$(dirname "$0")/.."
 mkdir -p build/tests

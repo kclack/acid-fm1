@@ -119,7 +119,7 @@ Hardware acceptance checklist: [docs/HARDWARE_TEST.md](docs/HARDWARE_TEST.md).
 
 ## Contributing and license
 
-Original code: MIT. Platform: MPL-2.0 file-by-file; fonts: SIL OFL; three SDK
+Original code: AGPL-3.0-only. Platform: MPL-2.0 file-by-file; fonts: SIL OFL; three SDK
 package files: Apache-2.0. See [THIRD_PARTY.md](THIRD_PARTY.md). The full-source
 release includes both pinned submodules. Bugs and contributions are welcome;
 no support or performance guarantee is implied.
