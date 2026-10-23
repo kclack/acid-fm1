@@ -30,8 +30,10 @@ static const int page_params[NPAGES][4]={
 static void app_number(int v,char *s)
 {
     char tmp[12];int i=0;unsigned u=(unsigned)(v<0?-v:v);
-    if(v<0)*s++='-';do{tmp[i++]=(char)('0'+u%10);u/=10;}while(u);
-    while(i)*s++=tmp[--i];*s=0;
+    if(v<0)*s++='-';
+    do{tmp[i++]=(char)('0'+u%10);u/=10;}while(u);
+    while(i)*s++=tmp[--i];
+    *s=0;
 }
 void app_say(const char *a,const char *b)
 {
@@ -202,7 +204,8 @@ int app_expect(const char *what,int *got)
     else if(!strcmp(what,"gate"))*got=synth.gate;
     else if(!strcmp(what,"slot"))*got=acid_ui.slot;
     else if(!strcmp(what,"root"))*got=(int)synth.project.p[P_ROOT];
-    else return 0;return 1;
+    else return 0;
+    return 1;
 }
 
 #endif

@@ -24,7 +24,7 @@ its proprietary model. Arturia references are listed in THIRD_PARTY.md.
 
 ## Memory / sample-rate choices
 
-No allocation occurs in the engine render. Engine state is about 108 KiB in the
+No allocation occurs in the engine render. Engine state is about 106 KiB in the
 FM1's pool. The delay holds 32,768 signed 16-bit mono samples with stereo taps:
 about 743 ms at 44.1 kHz. Slow tempo/long divisions clamp at that capacity. The
 four-comb ambience is deliberately simpler than a desktop reverb.

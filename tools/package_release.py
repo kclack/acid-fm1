@@ -12,6 +12,7 @@ for src,dst in [
  ('base/LICENSE','LICENSE-MPL-2.0.txt'),('base/LICENSES/Apache-2.0.txt','LICENSE-Apache-2.0.txt'),
  ('base/assets/fonts/Barlow-OFL.txt','LICENSE-Barlow-OFL.txt'),
  ('docs/HARDWARE_TEST.md','HARDWARE_TEST.md'),
+ ('docs/VALIDATION.md','VALIDATION.md'),('docs/BUILD_REPORT.json','BUILD_REPORT.json'),
 ]:shutil.copy(root/src,out/dst)
 files=subprocess.check_output(['git','ls-files','--recurse-submodules'],cwd=root,text=True).splitlines()
 archive=out/'acid-fm1-0.1.0-source.tar.gz'

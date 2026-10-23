@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0",
+  "status": "experimental; no physical FM1 validation",
+  "build_date": "2026-10-23",
+  "fm1_base": "6c0b47e4bfc56fd3cd5b34463210d0e7e0ce0431",
+  "felucca_bsp": "0f08fcaa6610b7cabe8cfdcc5c50d6facdae0e7f",
+  "jieli_toolchain": "jieli-linux-toolchains-20260730.1; clang 4.0.1; pi32v2 r3; single-precision FPU",
+  "emscripten": "4.0.20",
+  "sdk_revision": "d179b4484759423312073f5fbb232501aa491047",
+  "memory_bytes": {
+    "app": 91256,
+    "data_bss": 29336,
+    "data_bss_limit": 98304,
+    "pool": 233800,
+    "pool_limit": 344064
+  },
+  "tests": {
+    "native_assertions": 197114,
+    "asan": "passed with detect_leaks=0 (ptrace environment)",
+    "ubsan": "passed",
+    "native_wasm_max_sample_error": 0,
+    "browser": "Chromium: AudioWorklet, patch persistence/import/export, MIDI/WAV files, modulation, mobile, hardware view",
+    "physical_hardware": "not tested"
+  },
+  "sha256": {
+    "app.c": "43672413139dcc8fb4bbf562e9ea10d5e9fdc321cb9ef12ec0c36e707c0fd1bc",
+    "app.h": "0a253c7592daf58b803d5bbc7c582f36ed8e36152423bc1587ef68cbfa601692",
+    "dsp/acid.c": "74530199d96d14232c7b76422b48358152bb5d18e1849e04993926f122d385a3",
+    "dsp/acid.h": "e1cc1b68cf615de874063c6f57c596700c3ccb905a4a8a7bc7161e3294c723d7",
+    "dsp/web_bridge.c": "b45d5393b8e6ef46627b65c1887971ad417e694215243cd22d9f5029ebfeefcc",
+    "fm1.toml": "fab44696f44de8465e9945cceab8aa74d054cc13c349c825db470bdc558e3eaf",
+    "web/engine.wasm": "98bb81a30da1687d7a254e41949d10380d430b7570657e05764135334d5e8d0b",
+    "web/hardware/app.wasm": "0c6b12335419b782b58c823aa20e5a2d75022ea065f39bf75c7a382ef823e49d",
+    "build/acid-fm1.bin": "3ae4c13416575bfa6270e499be37bcc0d8850a1cb498c3b5e681a011949e5bfb",
+    "build/acid-fm1-0.1.0.fwsc": "589c49353a5d42f3f09355f6f1bfe0c2f4e8a27f5497ec794842b47c744e91b5"
+  }
+}

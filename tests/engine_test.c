@@ -18,6 +18,10 @@ int main(void)
     CHECK(sizeof(AcidProject)<=3840);CHECK(sizeof(Acid)<200000);
     acid_init(&a,44100);CHECK(acid_project_valid(&a.project));
     acid_process(&a,audio,1024);for(i=0;i<2048;i++)CHECK(audio[i]==0);
+    for(i=0;i<7;i++){
+        acid_init(&a,44100);acid_set(&a,P_DIST,(float)i);acid_set(&a,P_DIST_MIX,1);
+        acid_process(&a,audio,1024);for(j=0;j<2048;j++)CHECK(audio[j]==0);
+    }
     v=a.project.p[P_CUTOFF];acid_set(&a,P_CUTOFF,NAN);CHECK(a.project.p[P_CUTOFF]==v);
     acid_set(&a,P_LENGTH,-99);CHECK(a.project.p[P_LENGTH]==1);acid_set(&a,P_LENGTH,900);CHECK(a.project.p[P_LENGTH]==64);
     acid_set(&a,P_LENGTH,3.6f);CHECK(a.project.p[P_LENGTH]==4);

@@ -288,7 +288,7 @@ static float distortion(float x,int type,float drive)
     case 2:z=bound(y,-8,8);while(z>1||z<-1){if(z>1)z=2-z;if(z<-1)z=-2-z;}return z;
     case 3:z=16.0f+240.0f*(1-drive);return (float)(int)(bound(y,-1,1)*z)/z;
     case 4:return soft(y+.4f)-soft(.4f);
-    case 5:return absf(soft(y))*2-.5f;
+    case 5:return absf(soft(y))*2;
     default:z=y*.125f+.5f;z-= (float)(int)z;if(z<0)z+=1;return sinphase(z);
     }
 }
