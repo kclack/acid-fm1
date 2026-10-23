@@ -1,0 +1,16 @@
+name = "ACID-FM1"
+id_prefix = "FM-1_7303"
+usb_manufacturer = "ACID FM1 Project"
+usb_product = "ACID FM1"
+o2 = ["dsp/acid.c"]
+include = ["dsp"]
+vendored = ["base/"]
+ble = false
+wifi = false
+usb_audio_in = true
+usb_audio_out = true
+mirror = true
+tagline = "An open acid instrument for the M-VAVE FM-1"
+repo = "https://github.com/kclack/acid-fm1"
+licence = "MIT / MPL-2.0 platform"
+credits = "Original synth on fm1-base and felucca-bsp. Independent of Arturia and M-VAVE."

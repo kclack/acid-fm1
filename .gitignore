@@ -1,0 +1,8 @@
+build/
+*.o
+*.wav
+__pycache__/
+.openai/
+node_modules/
+.toolchains/
+test-results/

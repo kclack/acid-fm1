@@ -1,0 +1,426 @@
+[
+  {
+    "id": 0,
+    "name": "Cutoff",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.42,
+    "discrete": false
+  },
+  {
+    "id": 1,
+    "name": "Resonance",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.65,
+    "discrete": false
+  },
+  {
+    "id": 2,
+    "name": "Envelope",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.65,
+    "discrete": false
+  },
+  {
+    "id": 3,
+    "name": "Decay",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.38,
+    "discrete": false
+  },
+  {
+    "id": 4,
+    "name": "Accent",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.65,
+    "discrete": false
+  },
+  {
+    "id": 5,
+    "name": "Slide",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.32,
+    "discrete": false
+  },
+  {
+    "id": 6,
+    "name": "Waveform",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 7,
+    "name": "Pulse width",
+    "min": 0.1,
+    "max": 0.9,
+    "default": 0.5,
+    "discrete": false
+  },
+  {
+    "id": 8,
+    "name": "Tune",
+    "min": -12.0,
+    "max": 12.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 9,
+    "name": "Sub",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.12,
+    "discrete": false
+  },
+  {
+    "id": 10,
+    "name": "Drive",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.25,
+    "discrete": false
+  },
+  {
+    "id": 11,
+    "name": "Distortion",
+    "min": 0.0,
+    "max": 6.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 12,
+    "name": "Distortion mix",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.25,
+    "discrete": false
+  },
+  {
+    "id": 13,
+    "name": "Tempo",
+    "min": 30.0,
+    "max": 300.0,
+    "default": 130.0,
+    "discrete": false
+  },
+  {
+    "id": 14,
+    "name": "Swing",
+    "min": 0.0,
+    "max": 0.6,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 15,
+    "name": "Gate",
+    "min": 0.05,
+    "max": 0.98,
+    "default": 0.55,
+    "discrete": false
+  },
+  {
+    "id": 16,
+    "name": "Length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 16.0,
+    "discrete": true
+  },
+  {
+    "id": 17,
+    "name": "Direction",
+    "min": 0.0,
+    "max": 3.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 18,
+    "name": "Root",
+    "min": 24.0,
+    "max": 84.0,
+    "default": 36.0,
+    "discrete": true
+  },
+  {
+    "id": 19,
+    "name": "Scale",
+    "min": 0.0,
+    "max": 4.0,
+    "default": 1.0,
+    "discrete": true
+  },
+  {
+    "id": 20,
+    "name": "Delay mix",
+    "min": 0.0,
+    "max": 0.65,
+    "default": 0.14,
+    "discrete": false
+  },
+  {
+    "id": 21,
+    "name": "Delay feedback",
+    "min": 0.0,
+    "max": 0.85,
+    "default": 0.32,
+    "discrete": false
+  },
+  {
+    "id": 22,
+    "name": "Delay division",
+    "min": 0.0,
+    "max": 5.0,
+    "default": 2.0,
+    "discrete": true
+  },
+  {
+    "id": 23,
+    "name": "Reverb",
+    "min": 0.0,
+    "max": 0.6,
+    "default": 0.08,
+    "discrete": false
+  },
+  {
+    "id": 24,
+    "name": "Chorus",
+    "min": 0.0,
+    "max": 0.6,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 25,
+    "name": "Volume",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.7,
+    "discrete": false
+  },
+  {
+    "id": 26,
+    "name": "Bass boost",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.2,
+    "discrete": false
+  },
+  {
+    "id": 27,
+    "name": "Circuit noise",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 28,
+    "name": "Vibrato rate",
+    "min": 0.1,
+    "max": 12.0,
+    "default": 5.0,
+    "discrete": false
+  },
+  {
+    "id": 29,
+    "name": "Vibrato depth",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 30,
+    "name": "Mode",
+    "min": 0.0,
+    "max": 2.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 31,
+    "name": "Clock",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 32,
+    "name": "Mod 1 rate",
+    "min": 0.0,
+    "max": 8.0,
+    "default": 3.0,
+    "discrete": true
+  },
+  {
+    "id": 33,
+    "name": "Mod 1 depth",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 34,
+    "name": "Mod 1 target",
+    "min": 0.0,
+    "max": 6.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 35,
+    "name": "Mod 1 shape",
+    "min": 0.0,
+    "max": 5.0,
+    "default": 1.0,
+    "discrete": true
+  },
+  {
+    "id": 36,
+    "name": "Mod 1 length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 16.0,
+    "discrete": true
+  },
+  {
+    "id": 37,
+    "name": "Mod 2 rate",
+    "min": 0.0,
+    "max": 8.0,
+    "default": 4.0,
+    "discrete": true
+  },
+  {
+    "id": 38,
+    "name": "Mod 2 depth",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 39,
+    "name": "Mod 2 target",
+    "min": 0.0,
+    "max": 6.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 40,
+    "name": "Mod 2 shape",
+    "min": 0.0,
+    "max": 5.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 41,
+    "name": "Mod 2 length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 12.0,
+    "discrete": true
+  },
+  {
+    "id": 42,
+    "name": "Mod 3 rate",
+    "min": 0.0,
+    "max": 8.0,
+    "default": 2.0,
+    "discrete": true
+  },
+  {
+    "id": 43,
+    "name": "Mod 3 depth",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0,
+    "discrete": false
+  },
+  {
+    "id": 44,
+    "name": "Mod 3 target",
+    "min": 0.0,
+    "max": 6.0,
+    "default": 0.0,
+    "discrete": true
+  },
+  {
+    "id": 45,
+    "name": "Mod 3 shape",
+    "min": 0.0,
+    "max": 5.0,
+    "default": 5.0,
+    "discrete": true
+  },
+  {
+    "id": 46,
+    "name": "Mod 3 length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 7.0,
+    "discrete": true
+  },
+  {
+    "id": 47,
+    "name": "Accent attack",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.05,
+    "discrete": false
+  },
+  {
+    "id": 48,
+    "name": "Filter tracking",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.25,
+    "discrete": false
+  },
+  {
+    "id": 49,
+    "name": "Clipping",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.3,
+    "discrete": false
+  },
+  {
+    "id": 50,
+    "name": "Accent length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 16.0,
+    "discrete": true
+  },
+  {
+    "id": 51,
+    "name": "Slide length",
+    "min": 1.0,
+    "max": 64.0,
+    "default": 16.0,
+    "discrete": true
+  },
+  {
+    "id": 52,
+    "name": "Mutation",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.25,
+    "discrete": false
+  }
+]

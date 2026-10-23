@@ -1,0 +1,40 @@
+wait 600
+expect playing 0
+expect page 0
+shot boot.png
+tap PLAY
+wait 250
+expect playing 1
+shot playing.png
+tap PLAY
+expect playing 0
+tap ENV
+expect page 1
+turn K1 4
+expect dirty 1
+tap SAVE
+expect dirty 0
+expect store_writes 1
+tap SEQ
+expect page 6
+turn SELECT 3
+expect cursor 3
+turn K1 2
+shot sequence.png
+tap ARP
+expect mode 2
+tap ARP
+expect mode 0
+tap GLO
+expect page 8
+turn K4 1
+expect mode 1
+key 7 down
+wait 60
+expect note 48
+expect gate 1
+key 7 up
+wait 40
+expect gate 0
+tap HOME
+expect page 0

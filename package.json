@@ -1,0 +1,10 @@
+{
+  "name": "acid-fm1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000 --directory web",
+    "test": "sh tools/test.sh",
+    "build:web": "sh tools/build_web.sh"
+  }
+}
