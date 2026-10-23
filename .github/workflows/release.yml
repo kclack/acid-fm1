@@ -43,7 +43,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh release view v0.1.0 >/dev/null 2>&1; then
-            gh release upload v0.1.0 build/release-0.1.0/* --clobber
+            echo 'v0.1.0 already exists; published assets are left unchanged.'
           else
             gh release create v0.1.0 build/release-0.1.0/* --target "$GITHUB_SHA" --prerelease --title 'ACID FM1 0.1.0 — experimental' --notes-file docs/RELEASE_0.1.0.md
           fi
